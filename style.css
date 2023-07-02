@@ -271,8 +271,51 @@
 
 
 
+/* main_content4 ............................... */
 
 
+.main_content4 h1{
+    text-align: left;
+    font-size: 37px;
+    margin: 0px auto;
+}
+
+.main_content4 .course_field {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 4rem;   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_field .course {
+    position: relative;
+    margin: auto;
+    background-color: rgb(224, 228, 228);
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.course_field .course2 {
+    position: relative;
+    margin: auto;
+    background-color: rgb(224, 228, 228);
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.course_field img {
+    position: absolute;
+    background-color: rgb(232, 169, 10);
+    padding: 10px;
+    top: 0;
+}
+
+.course_field p {
+    margin: 20px 10px;
+
+}
 
 
 
