@@ -5,7 +5,7 @@
 }
 
 .content {
-    max-width: 1700px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
@@ -17,18 +17,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    max-width: 1500px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 
 .header img {
-    width: 170px;
+    width: 200px;
 }
 
 .header .login-starter_btns {
     display: flex;
     margin: 10px;
-    font-size: 16.5px;
+    font-size: 20px;
     font-weight: 600;
 }
 .header .login-starter_btns a {
@@ -57,15 +57,16 @@
 
 
 .main_content1 {
-    max-width: 1600px;
+    max-width: 2000px;
     margin: 0 auto;
     
 }
 
 .main_content1 h1 {
     text-align: center;
-    font-size: 42px;
-    margin: 10px 15px;
+    font-size: 80px;
+    margin: 15px auto;
+    max-width: 1700px;
 }
 
 .main_content1 .offers {
@@ -75,6 +76,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: 50px;
 }
 
 
@@ -166,6 +168,10 @@
     border-radius: 5px;
 }
 
+.main_content1 .offer2 .note_btn:hover {
+    background-color: aliceblue;
+}
+
 
 .main_content1 .images {
     position: absolute;
@@ -177,12 +183,20 @@
     position: relative;
 }
 
+.main_content1 .images:hover {
+    position: relative;
+}
+
 
 .main_content1 img {
     position: absolute;
     width: 50%;
     /* visibility: hidden; */
     z-index: -1;
+}
+.main_content1 img:hover {
+    width: 50%;
+    z-index: 1;
 }
 
 
@@ -614,12 +628,6 @@ footer p {
         width: 50%;
         /* visibility: hidden; */
         z-index: -1;
-    }
-    
-    .main_content1 img:hover {
-        position: absolute;
-        width: 50%;
-        z-index: 1;
     }
     
     /* main_content2................................ */
