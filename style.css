@@ -324,7 +324,7 @@
 }
 
 .certificate_field {
-    margin: 5px 60px 0 0;
+    margin: 5px 30px 0 0;
 }
 
 .certificate_field h1 {
@@ -344,15 +344,11 @@
 
 .certificate_field p {
     max-width: 560px;
-    word-spacing: 1px;
     line-height: 30px;
     font-size: 22px;
     font-weight: 500;
+    margin: 0 0 15px;
 }
-
-
-
-
 
 .main_content5 .certificate_img img {
     width: 560px;
@@ -360,7 +356,47 @@
 
 
 
+/* main_content6 .................................... */
 
+
+.aboutcourse_field {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.main_content6 h1 {
+    font-size: 45px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.aboutcourse {
+    display: flex;
+}
+
+.aboutcourse img {
+    width: 90px;
+    border-radius: 50%;
+    margin: 0 40px 0 0;
+}
+
+.aboutcourse .note {
+    max-width: 450px;
+    font-size: 22px;
+    margin: 0 0 50px;
+}
+
+.aboutcourse .note1 {
+    margin: 0 0 25px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.aboutcourse .note2 {
+    margin: 10px 0 15px;
+    font-weight: 400;
+}
 
 
 
