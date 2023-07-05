@@ -523,7 +523,7 @@ footer p {
     .main_content1 .offers {
         display: flex;
         flex-wrap: wrap;
-        grid-gap: 4rem;
+        grid-gap: 8rem;
         justify-content: center;
         align-items: center;
         position: relative;
@@ -555,13 +555,13 @@ footer p {
     /* box 1 & 2.................................. */
     
     .main_content1 .offer1 .box {
-        margin: 20px 18px;
+        margin: 15px 10px;
         color: black;
     
     }
     
     .main_content1 .offer2 .box {
-        margin: 20px 18px;
+        margin: 15px 10px;
         color: white;
     }
     
@@ -579,7 +579,7 @@ footer p {
     }
     
     .main_content1 .note {
-        max-width: 150px;
+        max-width: 170px;
         line-height: 25px;
         font-size: 18px;
     }
@@ -635,7 +635,7 @@ footer p {
     
     .main_content2 h1 {
         text-align: center;
-        font-size: 42px;
+        font-size: 35px;
         margin: 85px 0 40px;
     }
     
