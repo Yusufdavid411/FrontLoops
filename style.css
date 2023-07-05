@@ -481,7 +481,7 @@ footer p {
     .header .login-starter_btns {
         display: flex;
         margin: 5px;
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 200;
     }
     .header .login-starter_btns a {
@@ -635,8 +635,8 @@ footer p {
     
     .main_content2 h1 {
         text-align: center;
-        font-size: 35px;
-        margin: 85px 0 40px;
+        font-size: 32px;
+        margin: 75px 0 25px;
     }
     
     .work_field .works {
@@ -647,7 +647,7 @@ footer p {
     
     .work_field .work {
         margin: 0 auto;
-        max-width: 400px;
+        max-width: 250px;
     }
     
     .work_field .works img {
@@ -688,7 +688,7 @@ footer p {
     }
     
     .challenge_field .head_challenge {
-        max-width: 500px;
+        max-width: 300px;
         margin: 10px auto;
     }
     
@@ -715,10 +715,16 @@ footer p {
     
     /* main_content4 ............................... */
     
+
+    .main_content4 {
+        max-width: 300px;
+        margin: 0 auto;
+    }
     
     .main_content4 h1{
         text-align: center;
         font-size: 25px;
+
     }
     
     .main_content4 .course_field {
@@ -740,17 +746,17 @@ footer p {
     }
     
     .course_field img {
-        width: 60px;
+        width: 40px;
         position: absolute;
         background-color: rgb(241, 197, 84);
         margin: -50px;
         border-radius: 8px;
-        box-shadow: 0 2px rgb(0, 0, 0, 0.2);
+        box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
         padding: 10px;
     }
     
     .course_field p {
-        margin: 50px 0px 5px;
+        margin: 12px 0px 3px;
         padding: 10px;
         font-size: 20px;
     }
@@ -765,6 +771,7 @@ footer p {
         grid-gap: 10px;
         margin: 0 auto;
         justify-content: center;
+        max-width: 320px;
     }
     
     .certificate_field {
@@ -773,8 +780,8 @@ footer p {
     
     .certificate_field h1 {
         text-align: left;
-        font-size: 30px;
-        margin: 85px 0 40px 0;
+        font-size: 25px;
+        margin: 30px 0 20px 0;
     }
     
     .certificate_field .certificate {
@@ -782,26 +789,32 @@ footer p {
     }
     
     .certificate_field .certificate img {
-        margin: 0 10px 28px 0;
-        width: 25px;
+        margin: 0px 10px 28px 0;
+        width: 20px;
     }
     
     .certificate_field p {
         max-width: 560px;
-        line-height: 30px;
-        font-size: 22px;
+        line-height: 20px;
+        font-size: 18px;
         font-weight: 500;
         margin: 0 0 15px;
     }
     
     .main_content5 .certificate_img img {
         width: 250px;
+        margin: 10px 0 ;
+        box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
     }
     
     
     
     /* main_content6 .................................... */
     
+
+    .main_content6 {
+        max-width: 350px;
+    }
     
     .aboutcourse_field {
         display: flex;
@@ -825,6 +838,7 @@ footer p {
         width: 90px;
         border-radius: 50%;
         margin: 0 40px 0 0;
+        float: left;
     }
     
     .aboutcourse .note {
