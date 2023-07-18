@@ -546,12 +546,12 @@ footer p {
     
     /* offer 1 & 2 ............................. */
     
-    .main_content1 .offer1 {
+    /* .main_content1 .offer1 {
         background-color: rgb(237, 203, 78);
         padding: 20px;
         position: relative;
         border-radius: 5px;
-    }
+    } */
     
     .main_content1 .offer2 {
         background-color: rgb(113, 122, 226);
@@ -586,7 +586,7 @@ footer p {
         font-size: 15px;
     }
     
-    .main_content1 .note {
+    .main_content1 p .note {
         max-width: 170px;
         line-height: 25px;
         font-size: 18px;
