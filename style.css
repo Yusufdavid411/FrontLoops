@@ -741,8 +741,8 @@ footer p {
     
     .main_content4 h1{
         text-align: center;
-        font-size: 25px;
-
+        font-size: 22px;
+        margin-bottom: 20px;
     }
     
     .main_content4 .course_field {
@@ -757,10 +757,10 @@ footer p {
     .course_field .course {
         position: relative;
         background-color: rgb(248, 248, 248);
-        padding: 30px;
+        padding: 23px;
         width: 500px;
         border-radius: 5px;
-        margin: 70px 20px 20px 20px;
+        margin: 50px 10px 10px;
     }
     
     .course_field img {
