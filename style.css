@@ -254,7 +254,7 @@
 .main_content3 .image1 {
     width: 540px;
     height: 360px;
-    margin: 20px 0 20px 13px;
+    margin: 20px 0 20px 40px;
     /* box-shadow: ; */
     filter: drop-shadow(4px 23px 30px rgb(148, 145, 145));
 }
@@ -660,7 +660,7 @@ footer .note2 b a {
 
     .main_content2 h1 {
         text-align: center;
-        font-size: 32px;
+        font-size: 1.5rem;
         margin: 75px 0 25px;
     }
     
@@ -676,15 +676,16 @@ footer .note2 b a {
     }
     
     .work_field .works img {
-        width: 100px;
-        margin: 25px;
+        width: 60px;
+        margin: 20px 0 2px;
     }
     
     .work_field .works p {
-        word-spacing: 1px;
-        line-height: 30px;
-        font-size: 20px;
+        word-spacing: 0px;
+        line-height: 20px;
+        font-size: .9rem;
         font-weight: 500;
+        margin-bottom: 10px;
     }
     
     
@@ -701,14 +702,14 @@ footer .note2 b a {
     }
     
     .main_content3 .image1 {
-        width: 250px;
+        width: 300px;
+        height: 200px;
         margin: 20px auto;
-        
     }
     
     .head_challenge h1{
         text-align: left;
-        font-size: 25px;
+        font-size: 22px;
         margin: 0px auto;
     }
     
@@ -724,16 +725,17 @@ footer .note2 b a {
     }
     
     .challenge img {
-        margin: 0 10px 28px 0;
+        width: 18px;
+        margin: 2px 8px 28px 0;
     }
     
     .challenge p {
         /* max-width: 500px; */
-        font-size: 20px;
+        font-size: .9rem;
         text-align: left;
-        word-spacing: 1px;
-        line-height: 33px;
-        letter-spacing: 1px;
+        word-spacing: 0px;
+        line-height: 20px;
+        letter-spacing: 0px;
     }
     
     
@@ -799,13 +801,13 @@ footer .note2 b a {
     }
     
     .certificate_field {
-        margin: 5px 30px 0 0;
+        margin: 50px 30px 0 0;
     }
     
     .certificate_field h1 {
         text-align: left;
         font-size: 25px;
-        margin: 30px 0 20px 0;
+        margin: 30px 0 20px;
     }
     
     .certificate_field .certificate {
@@ -820,15 +822,15 @@ footer .note2 b a {
     .certificate_field p {
         max-width: 560px;
         line-height: 20px;
-        font-size: 18px;
+        font-size: 1rem;
         font-weight: 500;
         margin: 0 0 15px;
     }
     
     .main_content5 .certificate_img img {
-        width: 250px;
-        margin: 10px 0 20px;
-        box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
+        width: 300px;
+        height: 150px;
+        margin: 10px 0 30px;
     }
     
     
@@ -837,7 +839,7 @@ footer .note2 b a {
     
 
     .main_content6 {
-        max-width: 360px;
+        max-width: 350px;
         margin: 0 auto;
     }
     
@@ -864,19 +866,18 @@ footer .note2 b a {
     .aboutcourse .image {
         width: 90px;
         border-radius: 50%;
-        margin: 0 13px 0 0;
     }
     
     
     .aboutcourse .note {
         max-width: 450px;
-        font-size: 20px;
+        font-size: .9rem;
         margin: 0 0 20px;
     }
     
     .aboutcourse .note1 {
         margin: 0 0 25px;
-        line-height: 25px;
+        line-height: 20px;
         font-weight: 200;
     }
     .aboutcourse .note2 {
@@ -890,14 +891,22 @@ footer .note2 b a {
         justify-content: space-between;
         margin: 80px auto 10px;
         align-items: center;
-        padding: 40px;
-        max-width: 1500px;
+        padding: 20px;
+        max-width: 300px;
         border-top: solid 1px rgb(173, 170, 170);
     }
     
     footer p {
-        font-size: 15px;
-        margin: 10px;
+        font-size: .9rem;
+        margin: 5px 0;
+    }
+    
+    footer .note1 b a {
+        color: rgb(30, 29, 29);
+    }
+    
+    footer .note2 b a {
+        color: rgb(51, 51, 247);
     }
     
     
