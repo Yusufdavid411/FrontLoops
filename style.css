@@ -798,6 +798,7 @@ footer .note2 b a {
         margin: 0 auto;
         justify-content: center;
         max-width: 320px;
+        align-items: center;
     }
     
     .certificate_field {
